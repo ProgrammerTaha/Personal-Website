@@ -1,0 +1,19 @@
+.breadcrumb > li {
+  display: inline;
+}
+
+.breadcrumb li.location + li.location::before {
+  content: "> ";
+  color: black;
+}
+
+.breadcrumb li a:hover {
+  color: hsla(88, 100%, 25%, 1);
+  text-decoration: underline;
+}
+
+.breadcrumb li.attribute a {
+  color: gray;
+  margin-left: 10px;
+}
+
